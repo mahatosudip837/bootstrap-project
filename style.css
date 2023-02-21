@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    min-height: 15vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.header{
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1548275840-cd9d5c170ce5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.header .row{
+    width: 60vw;
+}
+.header h1{
+    font-weight: 400;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+.laptop{
+    min-height: 100vh;
+}
+.laptop img{
+    height: 400px;
+    width: 500px;
+}
+.laptop2{
+    background: rgb(226, 216, 216);
+}
+.seo{
+    width: 50vw;
+}
+.parabg{
+    background: url('https://images.unsplash.com/photo-1530053969600-caed2596d242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+.para{
+    width: 60vw;
+}
+.downpara{
+    background: rgb(224, 217, 217);
+}
+.proimg img{
+    height: 250px;
+    width: 300px;
+}
+.carouselbg{
+    background: url('https://images.unsplash.com/photo-1527589177743-325f24eef297?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel{
+    width: 60vw;
+}
+.carousel-item img{
+    height: 100px;
+    width: 100px;
+}
+.carousel-item i{
+    font-size: 40px;
+}
+.wordbg{
+    background: rgb(243, 189, 214);
+}
+.wordbg h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.social i{
+    font-size: 25px;
+}
+
+@media screen and (max-width:1116px){
+    .header h1{
+        font-weight: 400;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:852px){
+    .header h1{
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+    .header p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:718px){
+    .header h1{
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .header .btn{
+        font-size: 12px;
+    }
+    .header p{
+        font-size: 10px;
+    }
+    .parabg h1{
+        font-size: 30px;
+    }
+    .parabg p{
+        font-size: 15px;
+    }
+    .parabg .btn{
+        font-size: 10px;
+    }
+    .downpara h1{
+        font-size: 30px;
+    }
+    .downpara p{
+        font-size: 15px;
+    }
+    .downpara .btn{
+        font-size: 10px;
+    }
+    .wordbg h1{
+        font-size: 25px;
+    }
+    .wordbg .btn{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:590px){
+    .header h1{
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .parabg h1{
+        font-size: 25px;
+    }
+    .parabg p{
+        font-size: 10px;
+    }
+    .parabg .btn{
+        font-size: 8px;
+    }
+    .downpara h1{
+        font-size: 25px;
+    }
+    .downpara p{
+        font-size: 10px;
+    }
+    .downpara .btn{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:502px){
+    .header p{
+        font-size: 8px;
+    }
+    .header .btn{
+        font-size: 10px;
+    }
+    .pro h1{
+        font-size: 30px;
+    }
+    .pro p{
+        font-size: 15px;
+    }
+    .carouselbg h1{
+        font-size: 30px;
+    }
+    .carouselbg p{
+        font-size: 15px;
+    }
+    .wordbg h1{
+        font-size: 15px;
+    }
+    .wordbg .btn{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:440px){
+    .header h1{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .header p{
+        font-size: 8px;
+    }
+    .header .btn{
+        font-size: 6px;
+    }
+    .parabg h1{
+        font-size: 20px;
+    }
+    .parabg p{
+        font-size: 8px;
+    }
+    .downpara h1{
+        font-size: 20px;
+    }
+    .downpara p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:376px){
+    .header p{
+        font-size: 6px;
+    }
+    .header .btn{
+        font-size: 6px;
+    }
+    .parabg .btn{
+        font-size: 6px;
+    }
+    .downpara .btn{
+        font-size: 6px;
+    }
+    .carouselbg h1{
+        font-size: 20px;
+    }
+    .carouselbg p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:340px){
+.laptop h1{
+    font-size: 40px;
+}
+.client h1{
+    font-size: 25px;
+}
+}
